@@ -1,0 +1,42 @@
+package CoursoJava;
+
+import java.util.Scanner;
+
+public class classSwitchCase {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int x = sc.nextInt();
+			String Day;
+		
+			if (x == 1) {
+				Day = "Sunday";
+			}
+			else if (x == 2) {
+				Day = "Monday";
+			}
+			else if (x == 3) {
+				Day = "Tuesday";
+			}
+			else if (x == 4) {
+				Day = "Wednesday";
+			}
+			else if (x == 5) {
+				Day = "Thursday";
+			}
+			else if (x == 6) {
+				Day = "Friday";
+			}
+			else if (x == 7) {
+				Day = "Saturday";
+			}
+			
+			System.out.print(Day);
+	
+		sc.close();
+		
+	
+	
+	
+	}
+}
